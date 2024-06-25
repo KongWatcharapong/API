@@ -16,4 +16,6 @@ function TMWGETINFO_GiftVoucher($hash = null) {
     $result     = curl_exec ($ch);
     return json_decode($result,true);
 }
+
+TMWGETINFO_GiftVoucher("https://gift.truemoney.com/campaign/?v=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 ?>
